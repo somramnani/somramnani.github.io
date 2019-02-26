@@ -13,33 +13,29 @@ html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
-  
-    
 }
-body {
-    min-height: 100%;
- 
 
-  }
+body {
+    min-height: 100%;   
+}
 
 a{
     text-decoration: none;
+    color: black;
 }
 
-#content{
+#content {
     background-color: #ffffff;
     display: block;
-   
     height: auto;
-    
 }
-header{
+header {
     /* sets the border to solid and the color for the header */
     border-bottom: solid #cccccc;
     padding:30px;
 }
 
-.wrapper{
+.wrapper {
     /* Setting the placement of the text  */
     margin: 0 auto 0 auto; 
     width:60em;
@@ -47,19 +43,13 @@ header{
     border: solid #dddddd;
     padding-top: 20px;
     transform: translateY(20px);
-    background-color: #ffffff;
-    
+    background-color: #ffffff;  
 }
+
 .main_section{
     /* setting the middle section's color */
     background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  
-  
-  
-    /* background-color: lightgrey; */
-    min-height: 100%;
-  
-      
+    min-height: 100%;      
 }
 
 .aboutPageInformation{
@@ -149,33 +139,32 @@ body{
     height: 11em;
     width: auto;
     padding-right: 20px;
-   
-   float:left;
-   
-   
+  
+    float:left; 
 }
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 #DemPizzaLogoPic{
       height: 200px;
-      width: auto;
-  }
+      width: auto;     
+}
 
 #perrucciMediaPic{
     height: 100px;
     width: auto;
-    padding: 40px;
-    transform: translateX(-15em);
+   
+    transform: translateX(16em) translateY(-10em);
 }
 
 #rpsImage{
     height: 200px;
     width: auto;
-    transform: translateX(30em);    
+    transform: translateX(41em) translateY(-19em);    
 }
 
 
@@ -201,9 +190,7 @@ footer{
 
 #subject{
     height:100px;
-
 }
-
 
  select, textarea {
     width: 100%;
@@ -213,10 +200,8 @@ footer{
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
-    
+    resize: vertical;  
   }
-
 
   input[type=submit] {
     background-color: #4aaaa5;
@@ -229,10 +214,95 @@ footer{
   
 .labels{
     font-size: 20px;
+}
+  /***********Hover Style***********/
+  /* General Styles For the Projects Page */
+  .container_portfolio {
+    position: relative;
+    width: 50%;
+  }
+
+  .website_link{
+    background-color: #4aaaa5;
+    color:white;
+    padding: 10px;
+} 
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container_portfolio:hover .image {
+  opacity: 0.3;
+}
+
+/* Demarest Pizzeria Hover Style */
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+    -ms-transform: translate(-110%, -50%);
+    text-align: center;
+  }
+ 
+  
+  .container_portfolio:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    /* background-color: #4aaaa5; */
+    color:black;
+    font-size: 15px;
+    padding: 10px 25px;
+  }
+ 
+
+  /* Perrucci Media Hover Style */
+ 
+  .middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(7em, -13em);
+    -ms-transform: translate(7em, -13em);
+    text-align: center;
+  }
+  
+  .container_portfolio:hover .middle1 {
+    opacity: 1;
+  }
+  
+  .text1 {
+    color:white;
+    font-size: 15px;
+    padding: 10px 25px;
+  }
+
+  /* RPS Hover Style */
+  
+  .middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(28em, -24em);
+    -ms-transform: translate(28em, -24em);
+    text-align: center;
+  }
 
   
-}
+  .container_portfolio:hover .middle2 {
+    opacity: 1;
+  }
   
-/* input[type=text]{
-    padding-left:20px;
-} */
