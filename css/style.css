@@ -1,308 +1,120 @@
-/* 
-    Som Ramnani Portfolio Website
-    Author: Som Ramnani
-    Date: 2/15/2019
+/* General Styles
+   ========================================================================== */ 
 
-    Filename: style.css
-*/
+    html, body{
+        height: 100%;
+       
+    }
+    .container{
+        margin-bottom: 10em;
+    }
 
+    #maincontent {
+			padding-bottom: 7em;
+      }
 
-/**********General Styling **********/
+    /* Border for each page */
+    .border{
+        padding: 40px;
+    }
 
-html, body {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-}
+    .container{
+        background-color: white;
+        transform: translateY(1em);
+    }
 
-body {
-    min-height: 100%;   
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-#content {
-    background-color: #ffffff;
-    display: block;
-    height: auto;
-}
-header {
-    /* sets the border to solid and the color for the header */
-    border-bottom: solid #cccccc;
-    padding:30px;
-}
-
-.wrapper {
-    /* Setting the placement of the text  */
-    margin: 0 auto 0 auto; 
-    width:60em;
-    padding: 20px;
-    border: solid #dddddd;
-    padding-top: 20px;
-    transform: translateY(20px);
-    background-color: #ffffff;  
-}
-
-.main_section{
-    /* setting the middle section's color */
-    background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    min-height: 100%;      
-}
-
-.aboutPageInformation{
-    padding: 10px;
-    line-height: 2em;
-}
-
-/**********Heading Styles **********/
-
-#titleName {
-    /* Adjusting the placement of the title name in the header */
-    display:inline;
-    position: relative;
-    left:7em;
-    bottom:8px;
-    padding: 38px;
+    /* Middle content background image */
+    .background-color{
+        background-image: url("https://images.pexels.com/photos/89485/pexels-photo-89485.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        height: 100%;
     
-    /* Setting the color */
-    background-color: #4aaaa5;
-    color: white;
-}
+    }
 
-#aboutMeTitle, #projectsTitle, #contactPageTitle{
-    color:#4aaaa5;
-    border-bottom: solid #cccccc ;
-    padding-bottom: 40px;
-    font-size: 2em;
+    a{
+        text-decoration: none;
+    }
+    .homePageIcons{
+        font-size: 4em;
+        color: black;
+    }
+
+    .homepageContent{
+        transform: translateY(50%);
+        text-transform: uppercase;
+    }
+/* ========================================================================== */ 
     
-}
-
-/********** Font Styles **********/
-h1{
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-}
-body{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-/**********Header Styles **********/
 
 
-
-/**********Navigation Styles **********/
-#navbar{
-    /*Removes the bullets in the navbar */
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    
-    /* Displays navbar to the right */
-    float: right;  
-    
-    /* Sets the specific location of the navbar */
-    transform: translateX(-25em) translateY(-2em);   
-}
-
-.navbarItems{
-    /* Makes navbar horizontal */
-    display: inline;
-    
-    /*Makes a line in between each navbar item */
-    border-right-style: solid;
-    border-right-color: #777777;
-}
-
-.navbarItems a{
-    padding: 10px;
-    
-    /* Sets the navbar color */
-    color: #777777;
-    
-    /* Removes underline */
-    text-decoration: none;
-}
-
-.navbarItems a:hover{
-    /* Change the link color on hover */
-    background-color: #4aaaa5;
-    color:white;    
-}
-
-/**********Video Styles **********/
-
-
-/**********Image Styles **********/
-#pictureOfSom{
-    height: 11em;
-    width: auto;
-    padding-right: 20px;
-  
-    float:left; 
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-#DemPizzaLogoPic{
-      height: 200px;
-      width: auto;     
-}
-
-#perrucciMediaPic{
-    height: 100px;
-    width: auto;
+/* Navigation Styles
+   ========================================================================== */ 
    
-    transform: translateX(16em) translateY(-10em);
-}
+    .nav-item{
+        float: right;
+    }
 
-#rpsImage{
-    height: 200px;
-    width: auto;
-    transform: translateX(41em) translateY(-19em);    
-}
+    #navbar-contact{
+        border: 1px solid white;
+    }
+/* ========================================================================== */ 
 
 
-/***********Footer Styles ***********/
-#copyright{
-    font-size: 10px;
-    text-align:center;
-}
 
-footer{
-    background-color: #666666;
-    padding: 20px;
-    border-top: 8px solid #4aaaa5;
+
+/* Image Styles
+   ========================================================================== */ 
+
+    #image{
+        width: 50%;
+        height: auto;
+        padding: 20px;
+    }
+/* 
+    #demPizzaPic {
+        width: 50%;
+        height: auto;
+        
+    }
+
+    #rpsImage{
+        width: 15em;
+        padding: 50px;
+    } */
     
-    /* Sets the footer to the bottom and stays there */
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
+    /* #perrucciMediaPic {
+    
+        transform: translateY(2em);
 
-/***********Form Styles ***********/
+    } */
 
-#subject{
-    height:100px;
-}
+    .portfolioimages{
+        padding-bottom: 40px;
+    }
+/* ========================================================================== */ 
 
- select, textarea {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;  
-  }
 
-  input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-.labels{
-    font-size: 20px;
-}
-  /***********Hover Style***********/
-  /* General Styles For the Projects Page */
-  .container_portfolio {
-    position: relative;
-    width: 50%;
-  }
 
-  .website_link{
-    background-color: #4aaaa5;
-    color:white;
-    padding: 10px;
-} 
+/* Footer Styles
+   ========================================================================== */ 
+    footer{
+        /* background-color: #3A3535; */
+        color: white;
+        position: absolute;
+       bottom: 0;
+    
 
-.image {
-  opacity: 1;
-  display: block;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
+     
+    }
+/* ========================================================================== */ 
 
-.container_portfolio:hover .image {
-  opacity: 0.3;
-}
 
-/* Demarest Pizzeria Hover Style */
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-110%, -50%);
-    -ms-transform: translate(-110%, -50%);
-    text-align: center;
-  }
- 
-  
-  .container_portfolio:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    /* background-color: #4aaaa5; */
-    color:black;
-    font-size: 15px;
-    padding: 10px 25px;
-  }
- 
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
-  /* Perrucci Media Hover Style */
- 
-  .middle1 {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(7em, -13em);
-    -ms-transform: translate(7em, -13em);
-    text-align: center;
-  }
-  
-  .container_portfolio:hover .middle1 {
-    opacity: 1;
-  }
-  
-  .text1 {
-    color:white;
-    font-size: 15px;
-    padding: 10px 25px;
-  }
 
-  /* RPS Hover Style */
-  
-  .middle2 {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(28em, -24em);
-    -ms-transform: translate(28em, -24em);
-    text-align: center;
-  }
 
-  
-  .container_portfolio:hover .middle2 {
-    opacity: 1;
-  }
-  
