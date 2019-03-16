@@ -67,9 +67,9 @@
    ========================================================================== */ 
 
     #image{
-        width: 50%;
-        height: auto;
-        padding: 20px;
+            width: 50%;
+            height: auto;
+            padding: 20px;
     }
 /* 
     #demPizzaPic {
@@ -99,13 +99,14 @@
 /* Footer Styles
    ========================================================================== */ 
     footer{
-        /* background-color: #3A3535; */
-        color: white;
-        position: absolute;
-       bottom: 0;
-    
-
-     
+      /* background-color: #3A3535; */
+    	color: white;
+      position: absolute;
+			padding: 9px;
+			width: 100%;
+			
+			
+      
     }
 /* ========================================================================== */ 
 
