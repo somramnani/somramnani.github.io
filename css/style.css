@@ -41,8 +41,12 @@
     }
 
     .homepageContent{
-        transform: translateY(50%);
+        transform: translateY(10em);
         text-transform: uppercase;
+    }
+
+    .about-page-info{
+        transform: translateY(2em);
     }
 /* ========================================================================== */ 
     
@@ -57,6 +61,11 @@
 
     #navbar-contact{
         border: 1px solid white;
+    }
+   
+
+    #black{
+        color: black;
     }
 /* ========================================================================== */ 
 
@@ -101,9 +110,10 @@
     footer{
       /* background-color: #3A3535; */
     	color: white;
-      position: absolute;
-			padding: 9px;
-			width: 100%;
+    	position: absolute;
+		padding: 0px;
+			
+		width: 100%;
 			
 			
       
