@@ -12,4 +12,5 @@ A simple portfolio that encoprates the Bootstrap CSS Framework.
   - Sticky footer.
   
   
-* Taken from the Bootstrap repo: https://github.com/somramnani/Bootstrap-Portfolio
+  ### Note: 
+    - Taken from the Bootstrap repo: https://github.com/somramnani/Bootstrap-Portfolio
