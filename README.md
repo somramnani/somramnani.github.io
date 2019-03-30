@@ -11,4 +11,5 @@ A simple portfolio that encoprates the Bootstrap CSS Framework.
   - A responsive layout using grid, rows and columns.
   - Sticky footer.
   
-  *Taken from the Bootstrap repo: https://github.com/somramnani/Bootstrap-Portfolio
+  
+* Taken from the Bootstrap repo: https://github.com/somramnani/Bootstrap-Portfolio
