@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="images/me.jpg">
+    <link rel="icon" href="assets/images/me.jpg">
     <title>Som Ramnani</title>
 
     <!-- **************Bootstrap Links************** -->
@@ -24,82 +24,187 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
    
    <!-- *********************************************************************************** -->
+	
+	 <!-- **************Style Sheets************** -->
 
-    <link rel="stylesheet" href="css/style.css"> 
+	 <!-- My Style Sheet -->
+	 
+	<link rel="stylesheet" href="css/style.css"> 
+	 <!-- *********************************************************************************** -->
+	
+
 </head>
 <body>
-    <div class = "background-color">
-      
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent">
-            <a class="navbar-brand" id="black" href="index.html">SOM RAMNANI</a>
-            <button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+		
+	<div class = "background-color top header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent">
+			<a class="navbar-brand black" href="#top">SOM RAMNANI</a>
+			<button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
                    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                          <a class="nav-link" id="black" href="about.html">ABOUT</a>
-                    </li>
-                        
-                    <li class="nav-item">
-                        <a class="nav-link" id="black" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-        
-                    <li class="nav-item">
-                         <a class="nav-link" id="black" href="contact.html " id ="navbar-contact">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>    
+						
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">				
+				<ul class="navbar-nav ml-auto">
+	
+					<li class="nav-item">
+						<a class="nav-link black"  href="#aboutmesection">ABOUT</a>
+					</li>
+                
+					<li class="nav-item">
+						<a class="nav-link" id="black" href="#projects">PORTFOLIO</a>
+					</li>
+    							
+					<li class="nav-item">
+						<a class="nav-link" id="black" href=" " id ="navbar-contact">CONTACT</a>
+					</li>
+				</ul>
+			</div>	
+		</nav>    
    
-        
 
-        <div class = "text-center homepageContent">
-            <h1> Developer</h1>
-            <a href ="https://github.com/somramnani" class="btn-floating btn-tw mx-1 homePageIcons" target ="_blank">
-                <i class="fab fa-github"> </i>
-            </a>
+				
+		<div class = "text-center homepageContent">
+			<h1> FULL-STACK Developer</h1>
+		
+			<a href ="https://github.com/somramnani" class="btn-floating btn-tw mx-1 homePageIcons" target ="_blank">		
+				<i class="fab fa-github"> </i>
+			</a>
+
+			<a href ="https://www.linkedin.com/in/som-ramnani-b1990b14b" target ="_blank" class="btn-floating btn-li mx-1 homePageIcons">
+				<i class="fab fa-linkedin-in"> </i>
+			</a>
+			<a href = "assets/resume/Som Ramnani Resume .pdf" target = "_blank" class="btn-floating btn-li mx-1 homePageIcons">
+					<i class="fas fa-file"></i>
+			</a>
+			<button onclick="window.location.href = '#aboutmesection';"  class="btn btn-light" id = "getstartedbutton" >VIEW MY WORK</button>
+		</div>	
+	</div>
+
+	<section id = "aboutmesection" class ="hero-section">
+		<h1 class ="text-center"> ABOUT ME</h1>
+		<div class = "container border border-dark">
+			<div class = "row">
+				<!-- Picture of Me -->	
+				<div class = "col-xs-2 col-lg-6">    
+					<img src = "assets/images/me.jpg" alt = "Picture of Som" id = "image" class = "img-responsive center-block">
+				</div>
+						
+						
+				<!-- Bio -->
+						
+				<div class = "col-xs-2 col-lg-6 about-page-info">  
+				
+					<p>A software developer with a passion for technology and ambition to keep growing in programming.
+					</p>
+
+					<p>
+						I have acquired an Associate’s degree in Web Development. Over the past few years, I have gained experience in Web Development at Fairleigh Dickinson University, 
+						Bergen Community College, and the Rutgers Coding Bootcamp. This really allowed me to further develop my skills in HTML, CSS and JavaScript.
+						I have always had an interest in technology. I enjoy learning new languages and frameworks and am always looking for ways to improve my knowledge.
+					</p>
+
+								
+					<p>
+						The combination of my education and passion for technology contributes to my confidence in hardware, software, and programming.
+					
+					</p>
+					
+				</div>				
+			</div>
+
+		</div>
+	</section>
+
+	<section>
+
+		<div class="codeparralax img-responsive"></div>
+
+		<h1 class = "text-center" id="projects">PROJECTS</h1>
+			<div class = "container border border-dark">
+					<div class = "row">
+						<!-- Demarest Pizza Project -->
+						<div class ="col-md-2 col-lg-4 ">
+							<a href="https://somramnani.github.io/Demarest-Pizzeria/" target = "_blanks">
+								<img src="assets/images/dempizza.jpg" alt="Demarest Pizza Logo" class = "img-responsive portfolioimages" id ="demPizzaPic ">
+							</a>
+						</div>
+		
+						<!-- Perrucci Media Project -->
+						<div class ="col-md-2 col-lg-4">
+							<a href="https://somramnani.github.io/Perrucci-Media/" target ="_blank">
+								<img  src="assets/images/perruccimedia.jpg" alt="PerrucciMediaPic" id ="perrucciMediaPic" class ="img-responsive portfolioimages">
+							</a>
+						</div>
+						
+						<!-- Rock Paper Scissors Project -->
+						<div class ="col-md-2 col-lg-4">
+							<a href="https://somramnani.github.io/Rock-Paper-Scissors-Blockchain" target ="_blank" >
+								<img  src="assets/images/rps(1).jpg" alt="RPS-Blockchain" id ="rpsImage" class ="img-responsive portfolioimages">
+							</a>
+						</div>
+		
+						<!-- Psychic Game -->
+						<div class ="col-md-2 col-lg-4">
+								<a href="https://somramnani.github.io/Psychic-Game/" target ="_blank" >
+									<img  src="assets/images/psychic-game.jpg" alt="Psychic-Game" id ="Psychic-Game" class ="img-responsive portfolioimages">
+								</a>
+							</div>
+						
+							<!-- Crystals Collector Project -->
+						<div class ="col-md-2 col-lg-4">
+							<a href="https://somramnani.github.io/unit-4-game/" target ="_blank" >
+								<img  src="assets/images/crystalscollector.jpg" alt="Crystals Collector" id ="crystalscollector" class ="img-responsive portfolioimages">
+							</a>
+						</div>
+		
+						<!-- Trivia Game Project -->
+						<div class ="col-md-2 col-lg-4">
+							<a href="https://somramnani.github.io/TriviaGame/" target ="_blank" >
+								<img  src="assets/images/Batman.jpg" alt="Trivia Game" id ="trivia-game-image" class ="img-responsive portfolioimages">
+							</a>
+						</div>
+		
+		
+						<!-- GifTastic Project -->
+						<div class ="col-md-2 col-lg-4">
+							<a href="https://somramnani.github.io/GifTastic/" target ="_blank" >
+								<img  src="assets/images/GifTastic.jpg" alt="GifTastic" id ="giftastic" class ="img-responsive portfolioimages">
+							</a>
+						</div>
+		
+					</div>
+				</div>
+	</section>
+
+		
+	<!-- Footer -->	
+	<footer class="page-footer font-small navbar-dark bg-dark ">				
+		<div class="container-fluid">
+
+			<!-- Social buttons -->        
+			<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+					<a href ="https://github.com/somramnani" class="btn-floating btn-tw mx-1" target ="_blank">
+						<i class="fab fa-github"> </i>
+					</a>     
+				</li>
     
-            <a href ="https://www.linkedin.com/in/som-ramnani-b1990b14b" target ="_blank" class="btn-floating btn-li mx-1 homePageIcons">
-                <i class="fab fa-linkedin-in"> </i>
-            </a> 
+				<li class="list-inline-item">
+					<a href ="https://www.linkedin.com/in/som-ramnani-b1990b14b" target ="_blank" class="btn-floating btn-li mx-1">
+						<i class="fab fa-linkedin-in"> </i>
+					</a>      
+				</li> 
+			</ul>            
+		</div>
     
-        </div>
+						
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">
+			© 2018 Copyright
+		</div>  	
+	</footer>
 
-           
-
-    </div>
-
-
-
-
-    <!-- Footer -->
-    <footer class="page-footer font-small navbar-dark bg-dark fixed-bottom">
-
-            <div class="container-fluid">
-    
-                <!-- Social buttons -->        
-                <ul class="list-unstyled list-inline text-center">
-                    <li class="list-inline-item">
-                        <a href ="https://github.com/somramnani" class="btn-floating btn-tw mx-1" target ="_blank">
-                            <i class="fab fa-github"> </i>
-                        </a>      
-                    </li>
-                    
-                    <li class="list-inline-item">
-                        <a href ="https://www.linkedin.com/in/som-ramnani-b1990b14b" target ="_blank" class="btn-floating btn-li mx-1">
-                            <i class="fab fa-linkedin-in"> </i>
-                        </a>      
-                    </li> 
-                </ul>            
-            </div>
-    
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">
-                © 2018 Copyright
-            </div>  
-    </footer>
-    
+	<script src="assets/javascript/logic.js"></script>
 </body>
 </html>

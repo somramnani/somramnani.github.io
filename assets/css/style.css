@@ -1,13 +1,13 @@
 /* General Styles
    ========================================================================== */ 
-	  html {
-		  scroll-behavior: smooth;
-      height: 100%;
-    }
-  
+	 html {
+		scroll-behavior: smooth;
+		height: 100%;
+  }
     html, body{
         height: 100%;
-      }
+       
+    }
     .container{
         margin-bottom: 10em;
     }
@@ -28,7 +28,7 @@
 
     /* Middle content background image */
     .background-color{
-        background-image: url("../assets/images/nyc2.jpg");
+        background-image: url("../images/nyc2.jpg");
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover;
         height: 100%;
@@ -53,57 +53,16 @@
 		}
 		
 		#getstartedbutton{
-      display: block; 
-      margin: 0 auto; 
-      border-radius: 4px;
-      background-color:black;
-      border: none;
-      color: #fff;
-      text-align: center;
-      font-size: 32px;
-      padding: 16px;
-      width: 300px;
-      transition: all 0.5s;
-      cursor: pointer;
-      box-shadow: 0 10px 20px -8px white;
-    }
-    
-    #getstartedbutton{  
-      cursor: pointer;
-      position: relative;
-      transition: 0.5s;
-    }
-    
-    #getstartedbutton:after {
-      content: '»';
-      position: absolute;
-      opacity: 0;  
-      top: 14px;
-      right: -2px;
-      transition: 0.5s;
-    } 
-    
-    #getstartedbutton:hover{
-      padding-right: 20px;
-      padding-left:8px;
-    } 
-    
-    #getstartedbutton:hover:after {
-      opacity: 1;
-      right: 10px;
-    } 
-    
+			display: block; margin: 0 auto; 
+			
+	
+		}
 		.hero-section{
-		  height: 100%;
-		  background-size: cover;
-    }
-    #aboutmesection{
-      padding-top:4em;
-    }
-    #projects{
-      padding-top: 2em
-    }
-    
+
+		height: 100%;
+	
+		background-size: cover;
+		}
 /* ========================================================================== */ 
     
 
@@ -113,15 +72,16 @@
   
     .nav-item{
       float: right;
-    
     }
 
     #navbar-contact{
       border: 1px solid white;
     }
-
-  
    
+
+    #black{
+      color: black;
+    }
 /* ========================================================================== */ 
 
 
@@ -158,7 +118,7 @@
     }
 		
 		.codeparralax{
-			background-image: url("../assets/images/Code.jpg");
+			background-image: url("../images/Code.jpg");
       height: 800px; 
 
 			/* Create the parallax scrolling effect */
