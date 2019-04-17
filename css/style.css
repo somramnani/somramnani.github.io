@@ -1,105 +1,71 @@
 /* General Styles
-   ========================================================================== */ 
+========================================================================== */ 
 	  html {
 		  scroll-behavior: smooth;
       height: 100%;
     }
   
     html, body{
-        height: 100%;
-      }
+      height: 100%;
+    }
+    a{
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: none;
+      
+  }
+
     .container{
-        margin-bottom: 10em;
+      margin-bottom: 10em;
     }
 
     #maincontent {
-			padding-bottom: 7em;
-      }
+      padding-bottom: 7em;
+    }
 
     /* Border for each page */
     .border{
-        padding: 40px;
+      padding: 40px;
     }
 
     .container{
-        background-color: white;
-        transform: translateY(1em);
+      background-color: white;
+      transform: translateY(1em);
     }
 
     /* Middle content background image */
     .background-color{
-        background-image: url("../assets/images/nyc2.jpg");
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover;
-        height: 100%;
-    
+      background-image: url("../assets/images/nyc2.jpg");
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
     }
 
-    a{
-        text-decoration: none;
-    }
-    .homePageIcons{
-        font-size: 4em;
-        color: black;
-    }
+
 
     .homepageContent{
-        transform: translateY(10em);
-        text-transform: uppercase;
+      transform: translateY(10em);
+      text-transform: uppercase;
     }
 
     .about-page-info{
-        transform: translateY(2em);
+      transform: translateY(2em);
 		}
 		
-		#getstartedbutton{
-      display: block; 
-      margin: 0 auto; 
-      border-radius: 4px;
-      background-color:black;
-      border: none;
-      color: #fff;
-      text-align: center;
-      font-size: 32px;
-      padding: 16px;
-      width: 300px;
-      transition: all 0.5s;
-      cursor: pointer;
-      box-shadow: 0 10px 20px -8px white;
-    }
-    
-    #getstartedbutton{  
-      cursor: pointer;
-      position: relative;
-      transition: 0.5s;
-    }
-    
-    #getstartedbutton:after {
-      content: '»';
-      position: absolute;
-      opacity: 0;  
-      top: 14px;
-      right: -2px;
-      transition: 0.5s;
-    } 
-    
-    #getstartedbutton:hover{
-      padding-right: 20px;
-      padding-left:8px;
-    } 
-    
-    #getstartedbutton:hover:after {
-      opacity: 1;
-      right: 10px;
-    } 
     
 		.hero-section{
 		  height: 100%;
 		  background-size: cover;
     }
+
     #aboutmesection{
       padding-top:4em;
+      background-color: #f5f5f5;
     }
+
     #projects{
       padding-top: 2em
     }
@@ -109,81 +75,156 @@
 
 
 /* Navigation Styles
-   ========================================================================== */ 
-  
-    .nav-item{
-      float: right;
-    
-    }
+========================================================================== */ 
 
-    #navbar-contact{
-      border: 1px solid white;
-    }
+  .nav-item{
+    float: right;
+  }
 
-  
-   
+  #navbar-contact{
+    border: 1px solid white;
+  }
 /* ========================================================================== */ 
-
 
 
 
 /* Image Styles
-   ========================================================================== */ 
+========================================================================== */ 
 
-    #image{
-			width: 50%;
-      height: auto;
-      padding: 20px;
-    }
-/* 
-    #demPizzaPic {
-        width: 50%;
-        height: auto;
-        
-    }
+  #image{
+		width: 50%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .portfolioimages{
+    padding-bottom: 40px;
+  }
+  
+  /* Portfolio parralax image */
+	.codeparralax{
+		background-image: url("../assets/images/Code.jpg");
+    height: 800px; 
 
-    #rpsImage{
-        width: 15em;
-        padding: 50px;
-    } */
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
     
-    /* #perrucciMediaPic {
-    
-        transform: translateY(2em);
-
-    } */
-
-    .portfolioimages{
-        padding-bottom: 40px;
-    }
-		
-		.codeparralax{
-			background-image: url("../assets/images/Code.jpg");
-      height: 800px; 
-
-			/* Create the parallax scrolling effect */
-			background-attachment: fixed;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
 /* ========================================================================== */ 
 
 
 
+/* Animation Styles
+========================================================================== */ 
+
+   .animated { 
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+ 
+  
+   
+  }  
+
+/* ========================================================================== */ 
+
+
+/* Button Styles
+========================================================================== */
+  .homePageIcons{
+    font-size: 4em;
+    color: black;
+    padding: 10px;
+  }
+
+  .resumeicon{
+    font-size: 3.6em;
+    color: black;
+  } 
+  
+  .homePageIcons:hover, .resumeicon:hover{
+    color: white;
+  }
+
+
+  #getstartedbutton{
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 4px;
+    background-color:black;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px white;
+  }
+
+  #getstartedbutton{  
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #getstartedbutton:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -2px;
+    transition: 0.5s;
+  } 
+
+  #getstartedbutton:hover{
+    padding-right: 20px;
+    padding-left:8px;
+  } 
+
+  #getstartedbutton:hover:after {
+    opacity: 1;
+    right: 10px;
+  } 
+
+  .pulse{
+    width: 97%;
+  }
+
+.aboutpagearrowdown{
+  transform: translateY(-1em);
+  font-size: 2em;
+  color: black;
+}
+.projectspagearrow{
+  font-size: 2em;
+  color: white;
+
+}
+
+/* ========================================================================== */ 
+
+
 /* Footer Styles
-   ========================================================================== */ 
-    footer{
-      /* background-color: #3A3535; */
-    	color: white;
-			
+========================================================================== */ 
+  footer{
+    /* background-color: #3A3535; */
+    color: black;
 		padding: 0px;
-			
-		width: 100%;
-			
-			
-      
-    }
+		width: 100%;  
+  }
+
 /* ========================================================================== */ 
 
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="assets/images/me.jpg">
-    <title>Som Ramnani</title>
+    <title>Som Ramnani Portfolio</title>
 
     <!-- **************Bootstrap Links************** -->
     
@@ -26,24 +26,24 @@
    <!-- *********************************************************************************** -->
 	
 	 <!-- **************Style Sheets************** -->
+	 <!-- Animate.css -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 	 <!-- My Style Sheet -->
-	 
-	<link rel="stylesheet" href="css/style.css"> 
+	 <link rel="stylesheet" href="css/style.css"> 
 	 <!-- *********************************************************************************** -->
-	
 
 </head>
+
 <body>
 		
 	<div class = "background-color top header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent bounce animated">
 			<a class="navbar-brand black" href="#top">SOM RAMNANI</a>
 			<button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
                    
-						
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">				
 				<ul class="navbar-nav ml-auto">
 	
@@ -62,8 +62,6 @@
 			</div>	
 		</nav>    
    
-
-				
 		<div class = "text-center homepageContent">
 			<h1> FULL-STACK Developer</h1>
 		
@@ -74,13 +72,16 @@
 			<a href ="https://www.linkedin.com/in/som-ramnani-b1990b14b" target ="_blank" class="btn-floating btn-li mx-1 homePageIcons">
 				<i class="fab fa-linkedin-in"> </i>
 			</a>
-			<a href = "assets/resume/Som Ramnani Resume .pdf" target = "_blank" class="btn-floating btn-li mx-1 homePageIcons">
+
+			<a href = "assets/resume/Som Ramnani Resume .pdf" target = "_blank" class="btn-floating btn-li mx-1 resumeicon">
 					<i class="fas fa-file"></i>
 			</a>
+
 			<button onclick="window.location.href = '#aboutmesection';"  class="btn btn-light" id = "getstartedbutton" >VIEW MY WORK</button>
 		</div>	
 	</div>
 
+	<!-- About Me Section -->
 	<section id = "aboutmesection" class ="hero-section">
 		<h1 class ="text-center"> ABOUT ME</h1>
 		<div class = "container border border-dark">
@@ -90,9 +91,7 @@
 					<img src = "assets/images/me.jpg" alt = "Picture of Som" id = "image" class = "img-responsive center-block">
 				</div>
 						
-						
 				<!-- Bio -->
-						
 				<div class = "col-xs-2 col-lg-6 about-page-info">  
 				
 					<p>A software developer with a passion for technology and ambition to keep growing in programming.
@@ -104,21 +103,41 @@
 						I have always had an interest in technology. I enjoy learning new languages and frameworks and am always looking for ways to improve my knowledge.
 					</p>
 
-								
 					<p>
 						The combination of my education and passion for technology contributes to my confidence in hardware, software, and programming.
-					
 					</p>
 					
 				</div>				
 			</div>
-
+			
 		</div>
+	
+	<div class ="text-center animated  pulse infinite">
+
+			<a href = "#projectssection"   id = "arrowdown">
+				<i class="fas fa-angle-double-down aboutpagearrowdown  " ></i>
+			</a>
+		</div>
+	
+
+	
+	
 	</section>
 
-	<section>
 
-		<div class="codeparralax img-responsive"></div>
+	<!-- Projects Sections -->
+	<section id = "projectssection">
+		<div class="codeparralax img-responsive"> 
+				<!-- <div class ="text-center animated arrowdiv pulse infinite">
+
+						<a href = "#projects"   id = "arrowdown">
+							<i class="fas fa-angle-double-down projectspagearrow  " ></i>
+						</a>
+					</div> -->
+			
+			
+
+		</div>
 
 		<h1 class = "text-center" id="projects">PROJECTS</h1>
 			<div class = "container border border-dark">
@@ -201,7 +220,7 @@
 						
 		<!-- Copyright -->
 		<div class="footer-copyright text-center py-3">
-			© 2018 Copyright
+			© 2018 COPYRIGHT
 		</div>  	
 	</footer>
 
