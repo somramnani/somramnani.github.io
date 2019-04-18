@@ -18,17 +18,18 @@
 
   $(function() {  
     
-		
 			$(window).scroll(function() {    
         var scroll = $(window).scrollTop();
 				console.log(scroll);
 
 				function displayAboutMe(){
-					if (scroll >= 722.4000244140625) {
+					if (scroll >= 713.5999755859375) {
 						$(".about").removeClass("displaynone")
 						header.addClass("fixed-top fadeInDown");
 						header.removeClass("bg-transparent");
 						aboutme.addClass("aboutmeanimation slideInLeft")
+						$(".arrowbutton").removeClass("displaynone");
+			
 					} 
 				
 					else {
