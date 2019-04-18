@@ -42,6 +42,8 @@
       height: 100%;
       background-attachment: fixed;
       background-position: center;
+      opacity: 1;
+
     }
 
     .homepageContent{
@@ -61,9 +63,13 @@
     }
 
     #aboutmesection{
+      
       padding-top:4em;
       background-color: #f5f5f5;
       
+    }
+    .displaynone{
+      display:none;
     }
 
     #projects{
@@ -85,6 +91,14 @@
     border: 1px solid white;
   }
 /* ========================================================================== */ 
+
+
+/* Header Styles
+========================================================================== */ 
+  #pagetitle{
+    font-weight: bolder;
+  }
+/* ========================================================================== */
 
 
 
@@ -132,38 +146,33 @@
 /* Animation Styles
 ========================================================================== */ 
 
-   .animated { 
+
+  .animated{ 
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     -ms-animation-fill-mode: both; 
     -o-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 2s;
- 
-  
-   
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 1s;
   }  
+
   .aboutmeanimation { 
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     -ms-animation-fill-mode: both; 
     -o-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 2s;
- 
-  
-   
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
   } 
   
-
 /* ========================================================================== */ 
 
 
@@ -193,9 +202,9 @@
     border: none;
     color: #fff;
     text-align: center;
-    font-size: 32px;
-    padding: 16px;
-    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
     transition: all 0.5s;
     cursor: pointer;
     box-shadow: 0 10px 20px -8px white;
@@ -209,16 +218,17 @@
 
   #getstartedbutton:after {
     content: '»';
+    font-size: 30px;
     position: absolute;
     opacity: 0;  
-    top: 14px;
+    top: 1px;
     right: -2px;
     transition: 0.5s;
   } 
 
   #getstartedbutton:hover{
-    padding-right: 20px;
-    padding-left:8px;
+    padding-right: 30px;
+    padding-left:15px;
   } 
 
   #getstartedbutton:hover:after {
@@ -228,6 +238,7 @@
 
   .pulse{
     width: 97%;
+    height: 100%;
   }
 
   .aboutpagearrowdown{
@@ -265,5 +276,46 @@
     margin-right: auto;
  }
 
+
+
+/* Media Queries
+========================================================================== */ 
+
+ 
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    /* Turn off Animations on Mobile */
+    .animated, .aboutmeanimation {
+      /*CSS transitions*/
+      -o-transition-property: none !important;
+      -moz-transition-property: none !important;
+      -ms-transition-property: none !important;
+      -webkit-transition-property: none !important;
+      transition-property: none !important;
+
+      /*CSS transforms*/
+      -o-transform: none !important;
+      -moz-transform: none !important;
+      -ms-transform: none !important;
+      -webkit-transform: none !important;
+      transform: none !important;
+
+      /*CSS animations*/
+      -webkit-animation: none !important;
+      -moz-animation: none !important;
+      -o-animation: none !important;
+      -ms-animation: none !important;
+      animation: none !important;
+  
+    }
+
+
+    .aboutpagearrowdown{
+      display: none;
+      
+    }
+  }
+
+/* ========================================================================== */ 
 
 
