@@ -23,7 +23,7 @@
 				console.log(scroll);
 
 				function displayAboutMe(){
-					if (scroll >= 713.5999755859375) {
+					if (scroll >= 569.5999755859375) {
 						$(".about").removeClass("displaynone")
 						header.addClass("fixed-top fadeInDown");
 						header.removeClass("bg-transparent");
@@ -45,9 +45,10 @@
 					projectsSection.addClass("aboutmeanimation zoomIn")
 				}
 			}
+			// displayProjects();
 
 			displayAboutMe();
-			displayProjects();
+		
 				
       });
     });
