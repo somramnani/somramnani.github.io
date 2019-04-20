@@ -29,6 +29,7 @@
 						header.removeClass("bg-transparent");
 						aboutme.addClass("aboutmeanimation slideInLeft")
 						$(".arrowbutton").removeClass("displaynone");
+						$(".aboutmesection").removeClass("hero-section");
 			
 					} 
 				
@@ -61,28 +62,28 @@
 
 
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-	$(".projectimage1").hover(function(){
-		$(".cardtext1").removeClass("displaynone")
-		// $(".projectimage1").addClass("opacity")
-	}, function(){
-		$(".cardtext1").addClass("displaynone");
-		$(".projectimage1").removeClass("opacity")
-	})
+// 	$(".projectimage1").hover(function(){
+// 		$(".cardtext1").removeClass("displaynone")
+// 		// $(".projectimage1").addClass("opacity")
+// 	}, function(){
+// 		$(".cardtext1").addClass("displaynone");
+// 		$(".projectimage1").removeClass("opacity")
+// 	})
 
 
-	$(".projectimage2").hover(function(){
-		$(".cardinformation").removeClass("displaynone")
-		// $(".projectimage2").addClass("opacity")
-	}, function(){
+// 	$(".projectimage2").hover(function(){
+// 		$(".cardinformation").removeClass("displaynone")
+// 		// $(".projectimage2").addClass("opacity")
+// 	}, function(){
 	
-		$(".cardinformation").addClass("displaynone")
-		// $(".projectimage2").removeClass("opacity")
-	})
+// 		$(".cardinformation").addClass("displaynone")
+// 		// $(".projectimage2").removeClass("opacity")
+// 	})
 
 
 
 
 
-});
+// });
