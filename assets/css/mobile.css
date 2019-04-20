@@ -3,8 +3,10 @@
   @media only screen and (max-width : 768px) {
   
     .project2, .project3{
-      padding-left: 0em;
+
       padding-left: 1em;
+      
+
     }
    
 
@@ -34,20 +36,43 @@
   html{
     width: 120%;
     height: 120%;
-    } 
-  }  
+  }
+  
+  .project1 , .project2, .project3{
+    padding-left: .5em;
+  }
+
+}  
 
 /* Galaxy S5 */
   @media (min-width:360px) and (max-width:360px) {
     
     html{
       width: 110%;
-      height: 130%;
+      height: 140%;
       } 
+  }
+
+  /* iPhone 6/7/8 */
+  @media only screen and (min-width : 375px) and (max-width : 667px) { 
+
+    .project1, .project2, .project3{
+      padding-left: 0em;
     }
+    
+  
+  }
+
+  /* iPhone 6,7, & Plus */
+  @media only screen  and (min-width : 414px) and (max-width : 736px) {
+    .project1, .project2, .project3{
+      padding-left: 1.4em;
+    }
+  
+
 
   /* iPad */
-  @media (min-width:768px) and (max-width : 768px) {
+  @media only screen and (min-width : 768px) and (max-width : 1024px)   {
     
     .abooutmesection{
       height: 150em;  

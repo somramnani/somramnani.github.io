@@ -5,7 +5,7 @@
 	var header = $(".topnavbar");
 	var aboutme = $(".about");
 	var startButton = $("#getstartedbutton");
-	var projectsSection = $(".portfolioimages")
+	var projectsSection = $(".galleryimage")
 
 
 
@@ -39,13 +39,16 @@
 				}
 
 			function displayProjects(){
-				if(scroll >= 2244.800048828125){
-					$(".projectssection").removeClass("projectcontainer")
-					projectsSection.removeClass("displaynone");
+				if(scroll >= 2166.39990234375){
+
+					$(".portfoliocontainer").removeClass("displaynone");
+					
+					
+					$(".hero-section").removeClass("projectcontainer");
 					projectsSection.addClass("aboutmeanimation zoomIn")
 				}
 			}
-			// displayProjects();
+			displayProjects();
 
 			displayAboutMe();
 		
@@ -54,3 +57,32 @@
     });
 
 //__________________________________________________________
+
+
+
+
+$(document).ready(function(){
+
+	$(".projectimage1").hover(function(){
+		$(".cardtext1").removeClass("displaynone")
+		// $(".projectimage1").addClass("opacity")
+	}, function(){
+		$(".cardtext1").addClass("displaynone");
+		$(".projectimage1").removeClass("opacity")
+	})
+
+
+	$(".projectimage2").hover(function(){
+		$(".cardinformation").removeClass("displaynone")
+		// $(".projectimage2").addClass("opacity")
+	}, function(){
+	
+		$(".cardinformation").addClass("displaynone")
+		// $(".projectimage2").removeClass("opacity")
+	})
+
+
+
+
+
+});
