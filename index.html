@@ -33,7 +33,10 @@
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 	 <!-- My Style Sheet -->
-	 <link rel="stylesheet" href="css/style.css"> 
+	 <link rel="stylesheet" href="assets/css/style.css"> 
+	 <link rel="stylesheet" href="assets/css/mobile.css"> 
+
+
 	 <!-- *********************************************************************************** -->
 
 
@@ -41,6 +44,10 @@
 </head>
 
 <body>
+
+
+	
+
 		
 	<div class = "background-color top header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent bounce animated topnavbar">
@@ -87,9 +94,10 @@
 		</div>	
 	</div>
 
+
 	<!-- About Me Section -->
 	<section id = "aboutmesection"  class ="hero-section   ">
-		<h1 class ="text-center aboutheader about displaynone "> ABOUT</h1>
+		<h1 class ="text-center pageheaders about displaynone "> ABOUT</h1>
 		<div class = "container  about aboutme displaynone aboutmeinfo" >
 			<div class = "row ">
 				<!-- Picture of Me -->	
@@ -137,10 +145,6 @@
 			</div>
 		</div>
 
-
-
-
-		
 		<!-- Arrow down button -->
 		<div class ="text-center animated pulse infinite displaynone arrowbutton">
 			<div>
@@ -161,55 +165,57 @@
 						</a>
 					</div>
 		</div>
+	 </section>
 
-		<!-- <h1 class = "text-center" id="projects">PROJECTS</h1>
+	 <section class = "hero-section " id = "projects">
+		<h1 class="text-center pageheaders">PROJECTS</h1>
 
-		<div class = "projectcontainer  projectssection" >
-
-		
-			<div id = "galleryimage">
-				<div class="card">
+		<div class="container">
+			<div class="row">
 				
-					<div class="text">
-						<div class="">file name</div>
+				<div class="col-sm-2">
+						<div id = "">
+								<div class="card galleryimage img-responsive" >
+									<div class="card-body displaynone">
+										<h5 class="card-title">Card title</h5>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Go somewhere</a>
+									</div>
+								</div>
+							</div>
+				</div>
+
+				<div class="col-sm-2 project2">
+					<div id = "">
+							<div class="card galleryimage img-responsive" >
+								<div class="card-body displaynone">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+			</div>
+
+
+
+			<div class="col-sm-2 project3">
+				<div id = "">
+						<div class="card galleryimage img-responsive" >
+							<div class="card-body displaynone">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
 					</div>
-				</div>
+		</div>
+
+
+
 			</div>
-		</div>  -->
+		</div>
 	
-			
-		<!-- <div class="card-group">
-			<div class="card">
-				<img class="card-img-top cardimg" src="./assets/images/rps.jpg" alt="Card image cap">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-				</div>
-				<div class="card-footer">
-					<small class="text-muted">Last updated 3 mins ago</small>
-				</div>
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="..." alt="Card image cap">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-				</div>
-				<div class="card-footer">
-					<small class="text-muted">Last updated 3 mins ago</small>
-				</div>
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="..." alt="Card image cap">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-				</div>
-				<div class="card-footer">
-					<small class="text-muted">Last updated 3 mins ago</small>
-				</div>
-			</div>
-		</div> -->
 
 		
 			<!-- <div class = "container border projectcontainer  projectssection" >
@@ -270,6 +276,7 @@
 	</section>
 
 
+
 	<!-- Footer -->	
 	<footer class="page-footer font-small navbar-dark bg-dark ">				
 			<div class="container-fluid">
@@ -296,6 +303,8 @@
 				SOM RAMNANI ©2019 
 			</div>  	
 		</footer>
+
+	</section>
 
 
 	<script src="assets/javascript/logic.js"></script>

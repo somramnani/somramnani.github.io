@@ -1,0 +1,71 @@
+/* General Mobile Styles
+========================================================================== */
+  @media only screen and (max-width : 768px) {
+  
+    .project2, .project3{
+      padding-left: 0em;
+      padding-left: 1em;
+    }
+   
+
+    .aboutpagearrowdown, .projectspagearrow{
+      display: none;
+    }
+
+    .codeparralax{
+      height: 100em;
+    }  
+  }
+  body{
+    bottom: -20;
+  }
+
+
+
+
+/* ========================================================================== */  
+
+
+/* Specific Phone Mobile Styles
+========================================================================== */
+/* iPhone 5/SE */
+@media (min-width:320px) and (max-width:320px) {
+    
+  html{
+    width: 120%;
+    height: 120%;
+    } 
+  }  
+
+/* Galaxy S5 */
+  @media (min-width:360px) and (max-width:360px) {
+    
+    html{
+      width: 110%;
+      height: 130%;
+      } 
+    }
+
+  /* iPad */
+  @media (min-width:768px) and (max-width : 768px) {
+    
+    .abooutmesection{
+      height: 150em;  
+    }
+
+    .aboutmeinfo{
+      font-size: 20px;
+    }
+  }
+
+
+
+
+/* ========================================================================== */  
+
+
+
+
+
+
+

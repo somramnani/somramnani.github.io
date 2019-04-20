@@ -1,149 +1,335 @@
-/* General Styles
-   ========================================================================== */ 
-	 html {
-		scroll-behavior: smooth;
-		height: 100%;
-  }
-    html, body{
-        height: 100%;
-       
+/* Generl Styles
+========================================================================== */ 
+	  html {
+		  scroll-behavior: smooth;
     }
+    body{
+      margin: 0;
+      padding: 0;
+    }
+  
+    html, body{
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Source Sans Pro', sans-serif;
+      background-color: #f5f5f5;
+    }
+  
+
+   
+    a{
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: none;
+      
+    }
+
     .container{
-        margin-bottom: 10em;
+
+      position: relative
+    
+    }
+    .aboutme{
+      background-color: white; 
     }
 
     #maincontent {
-			padding-bottom: 7em;
-      }
+      padding-bottom: 7em;
+    }
+
+    .about{
+      transform: translateY(1em);
+    }
 
     /* Border for each page */
     .border{
-        padding: 40px;
+      padding: 40px;
     }
 
-    .container{
-        background-color: white;
-        transform: translateY(1em);
-    }
 
     /* Middle content background image */
     .background-color{
-        background-image: url("../images/nyc2.jpg");
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover;
-        height: 100%;
-    
-    }
+      
+      
+      background-image: url("../images/joe-taylor-641989-unsplash.jpg");
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      opacity: 1;
 
-    a{
-        text-decoration: none;
-    }
-    .homePageIcons{
-        font-size: 4em;
-        color: black;
     }
 
     .homepageContent{
-        transform: translateY(10em);
-        text-transform: uppercase;
+      transform: translateY(10em);
+      text-transform: uppercase;
     }
 
     .about-page-info{
-        transform: translateY(2em);
+      transform: translateY(2em);
+      padding-bottom: 5em;
 		}
 		
-		#getstartedbutton{
-			display: block; margin: 0 auto; 
-			
-	
-		}
+    
 		.hero-section{
+		  height: 100%;
+		  background-size: cover;
+    }
 
-		height: 100%;
-	
-		background-size: cover;
-		}
+    #aboutmesection{
+      
+      
+      background-color: #f5f5f5;
+    }
+    .pageheaders{
+      padding-top:2em;
+      padding-bottom: 1em;
+    }
+ 
+
+    .displaynone{
+      display:none;
+    }
+
+    #projects{
+      padding-top: 2em;
+    
+    }
+
+    .projectcontainer{
+      padding-bottom: 20em;
+  
+    }
+
+    .galleryimage{
+      background-image: url();
+      width: 23rem;
+      height: 16rem;
+      
+      display: inline-block 
+    }
+
+
+    .project2{
+      padding-left: 12em;
+    }
+
+    .project3{
+      padding-left: 22em;
+    }
+
+    
 /* ========================================================================== */ 
     
 
 
 /* Navigation Styles
-   ========================================================================== */ 
-  
-    .nav-item{
-      float: right;
-    }
+========================================================================== */ 
 
-    #navbar-contact{
-      border: 1px solid white;
-    }
-   
+  .nav-item{
+    float: right;
+  }
 
-    #black{
-      color: black;
-    }
+  #navbar-contact{
+    border: 1px solid white;
+  }
 /* ========================================================================== */ 
 
+
+/* Header Styles
+========================================================================== */ 
+  #pagetitle{
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  h1{
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    
+    
+  }
+/* ========================================================================== */
 
 
 
 /* Image Styles
-   ========================================================================== */ 
+========================================================================== */ 
 
-    #image{
-			width: 50%;
-      height: auto;
-      padding: 20px;
+  #image{
+		width: 66%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .portfolioimages{
+    padding-bottom: 40px;
+  }
+  
+  /* Portfolio parralax image */
+	.codeparralax{
+		background-image: url("../images/Code.jpg");
+    height: 800px; 
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
-/* 
-    #demPizzaPic {
-        width: 50%;
-        height: auto;
-        
+
+    .skillsimages{
+      width: auto;
+      height: 120px;
+      padding: 10px;
+    }
+    #css3image{
+      padding-right: 10px;
+
     }
 
-    #rpsImage{
-        width: 15em;
-        padding: 50px;
-    } */
-    
-    /* #perrucciMediaPic {
-    
-        transform: translateY(2em);
-
-    } */
-
-    .portfolioimages{
-        padding-bottom: 40px;
+    .cardimg{
+      width:286px;
+      height: 180px;
     }
-		
-		.codeparralax{
-			background-image: url("../images/Code.jpg");
-      height: 800px; 
-
-			/* Create the parallax scrolling effect */
-			background-attachment: fixed;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
+     
 /* ========================================================================== */ 
 
 
 
+/* Animation Styles
+========================================================================== */ 
+
+
+  .animated{ 
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 1s;
+  }  
+
+  .aboutmeanimation { 
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+  } 
+  
+/* ========================================================================== */ 
+
+
+/* Button Styles
+========================================================================== */
+  .homePageIcons{
+    font-size: 4em;
+    color: black;
+    padding: 10px;
+  }
+
+  .resumeicon{
+    font-size: 3.6em;
+    color: black;
+  } 
+  
+  .homePageIcons:hover, .resumeicon:hover{
+    color: white;
+  }
+
+
+  #getstartedbutton{
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 4px;
+    background-color:black;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px white;
+  }
+
+  #getstartedbutton{  
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #getstartedbutton:after {
+    content: '»';
+    font-size: 30px;
+    position: absolute;
+    opacity: 0;  
+    top: 1px;
+    right: -2px;
+    transition: 0.5s;
+  } 
+
+  #getstartedbutton:hover{
+    padding-right: 30px;
+    padding-left:15px;
+  } 
+
+  #getstartedbutton:hover:after {
+    opacity: 1;
+    right: 10px;
+  } 
+
+  .pulse{
+    width: 97%;
+    height: 100%;
+  }
+
+  .aboutpagearrowdown{
+    transform: translate(1em,.6em);
+    font-size: 2em;
+    color: black;
+   }
+
+   .projectspagearrow{
+    font-size: 2em;
+    color: white;
+    transform: translateY(20.8em);
+  }
+
+
+
+
+
+/* ========================================================================== */ 
+
+
 /* Footer Styles
-   ========================================================================== */ 
-    footer{
-      /* background-color: #3A3535; */
-    	color: white;
-			
+========================================================================== */ 
+  footer{
+    /* background-color: #3A3535; */
+    color: white;
 		padding: 0px;
-			
-		width: 100%;
-			
-			
-      
-    }
+    width: 100%;  
+   
+  }
+
 /* ========================================================================== */ 
 
 
@@ -153,5 +339,12 @@
     margin-right: auto;
  }
 
+
+
+
+
+
+
+ 
 
 
