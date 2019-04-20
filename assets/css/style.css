@@ -18,10 +18,10 @@
   
 
    
-    a{
+     a{
       text-decoration: none;
     }
-    
+     
     a:hover {
       text-decoration: none;
       
@@ -121,23 +121,23 @@
     }
 
 
-    .projectimage1{
+    /* .projectimage1{
       background-image: url("../images/rps.jpg");
       background-repeat: no-repeat; /* Do not repeat the image  */
-      background-size: cover;
-    }
+      /* background-size: cover;
+    } */ 
 
-    .projectimage2{
+    /* .projectimage2{
       background-image: url("../images/camera.jpg");
       background-repeat: no-repeat; /* Do not repeat the image */
-      background-size: cover;
-    }
+      /* background-size: cover;
+    } */ 
 
-    .projectimage3{
+    /* .projectimage3{
       background-image: url("../images/blockchain.jpg");
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: cover;
-    }
+    } */
     .cardtext1{
       color: white;
     }
@@ -157,6 +157,21 @@
      
       position: relative
     }
+
+  .card-footer {
+  
+    background-color: rgba(0,0,0,.0);
+    text-align: center;
+ 
+    
+}
+.viewwebsite{
+  color: black;
+
+}
+
+
+
 
     
 /* ========================================================================== */ 
