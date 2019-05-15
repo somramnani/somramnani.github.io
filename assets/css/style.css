@@ -165,16 +165,22 @@
     .cardtext1{
       color: white;
     }
-
-
     .project2{
+      padding-left: 8em;
+    }
+
+    .project3{
+      padding-left: 15em;
+    }
+
+
+    /* .project2{
       padding-left: 15em;
       
     }
 
-    .project3{
-      padding-left: 25em;
-    }
+  
+    } */
 
 
     .card-title, .card-text{
