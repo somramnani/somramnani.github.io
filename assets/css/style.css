@@ -134,10 +134,13 @@
       /* width: 22.5rem; 
       height: 16rem; */
       width: 391px; 
-      height: 298px;
+      height: auto;
    
       
       display: inline-block 
+    }
+    .projectimage{
+      height: 259px;
     }
 
 
@@ -156,7 +159,7 @@
     /* .projectimage3{
       background-image: url("../images/blockchain.jpg");
       background-repeat: no-repeat; /* Do not repeat the image */
-      background-size: cover;
+      /* background-size: cover; */
     } */
     .cardtext1{
       color: white;
