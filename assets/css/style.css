@@ -102,12 +102,10 @@
 		  background-size: cover;
     }
 
-    #aboutmesection{
-    
-      
-      
+    #aboutmesection{      
       background-color: #f5f5f5;
     }
+
     .pageheaders{
       padding-top:2em;
       padding-bottom: 1em;
@@ -121,12 +119,10 @@
     #projects{
      padding-bottom: 0.5em;
       padding-top: 2em;
-    
     }
 
     .projectcontainer{
       padding-bottom: 40em;
-  
     }
 
     .galleryimage{
@@ -137,9 +133,9 @@
       width: 391px; 
       height: auto;
    
-      
       display: inline-block 
     }
+
     .projectimage{
       height: 259px;
     }
@@ -165,6 +161,7 @@
     .cardtext1{
       color: white;
     }
+    
     .project2{
       padding-left: 8em;
     }
@@ -200,6 +197,13 @@
     color: white;
     padding-left: 5px;
   }
+
+  .project2text{
+    padding-bottom: 24px;
+  }
+
+
+  
 
 
 
