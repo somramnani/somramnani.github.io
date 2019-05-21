@@ -1,9 +1,11 @@
-# Bootstrap-Portfolio
-A simple portfolio that encoprates the Bootstrap CSS Framework.
+# Portfolio Website
+A simple portfolio wesbite that encoprates the Bootstrap CSS Framework.
 
 ## Tools/Languages Used:
-- HTML/CSS
+- HTML
+- CSS
 - Bootstrap
+- JavaScript
 
 ## Features
 - Uses the Bootstrap framework to recreate the Basic-Portfolio/Responsive-Portfolio repo with the following items:
