@@ -5,8 +5,6 @@
     .project2, .project3{
       padding-top: 1em;
       padding-left: 1em;
-      
-
     }
 
     .homePageIcons{
@@ -15,18 +13,13 @@
    
 
     .aboutpagearrowdown, .projectspagearrow{
-      display: none;
+      visibility:hidden;
     }
 
     .codeparralax{
       height: 100em;
     }  
   }
-
-  
-
-
-
 
 /* ========================================================================== */  
 
@@ -67,6 +60,8 @@
 
    
 
+   
+
   }
 
   /* iPhone 6/7/8 */
@@ -89,15 +84,32 @@
 
 
   /* iPad */
-  @media only screen and (min-width : 768px) and (max-width : 1024px)   {
+  @media only screen and (min-width : 768px) and (max-width : 768px)   {
     
     .abooutmesection{
       height: 150em;  
     }
 
     .aboutmeinfo{
-      font-size: 20px;
+      font-size: 1.5em;
     }
+
+    .homepageContent{
+      transform: translateY(15em);
+    }
+    .project1{
+      transform: translateX(7em);
+    }
+    .project2{
+      padding-top: 40em;
+    }
+    .project3{
+      padding-top: 80em;
+      transform: translateX(-7em)
+      
+    }
+
+  
   }
 
 
